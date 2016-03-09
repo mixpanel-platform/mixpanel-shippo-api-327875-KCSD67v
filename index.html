@@ -5,11 +5,403 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.mxpnl.com/libs/mixpanel-platform/css/reset.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.mxpnl.com/libs/mixpanel-platform/build/mixpanel-platform.v0.latest.min.css">
     <script src="https://cdn.mxpnl.com/libs/mixpanel-platform/build/mixpanel-platform.v0.latest.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    console.log('doc loaded');
+    query1();
+    //query2();
+    
+  });
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://d621cde4587c562960fbe230744f42dc2304ca4f.googledrive.com/host/0BxwayM8qQaCVX0w4RExCOVdhbzQ">
+    <link rel="stylesheet" type="text/css" href="https://a7fd22d7f1e3c3ec503950ff3eb0ca354866665d.googledrive.com/host/0BxwayM8qQaCVMk14UTA0V2JuSVU">
+    <link rel="stylesheet" type="text/css" href="https://5a4961e5c9f1459a1c463234568af125d8e1b386.googledrive.com/host/0BxwayM8qQaCVRmRCSDlXUUtMMnc/">
+    <link rel="stylesheet" type="text/css" href="https://201420392a7158f07d53a8f3e71606645ab03bd2.googledrive.com/host/0BxwayM8qQaCVQldvY2U5Um9FN3M">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.3/css/simple-line-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/51386401/styleOverrides.css" />
+
+
   </head>
   <body class="mixpanel-platform-body">
-    <h1>Hello, World!</h1>
+  <script>
+  MP.api.setCredentials("3a1a21fda7bb34ffd69558588d0aa08e","c06e6b220eb271624643475651af523b");
+  </script>
+  <div class="content-wrapper">
+            <div class="content-heading text-center">
+               <!-- START Language list-->
+               <div class="pull-right" style="bottom: 10px;">
+                  <img src="https://d018d7277c9a2a72c253b637c4abe4d24d29449c.googledrive.com/host/0BxwayM8qQaCVOGZvekkxYTNSZVU" height="40px" width="120px">
+                 
+               </div>
+               <div class="pull-left">
+                  <img src="http://dka575ofm4ao0.cloudfront.net/pages-transactional_logos/retina/6765/sgv9KoXRWaoexSzTAc9g" height="40">
+                 
+               </div>
+               
+               Shippo Real-Time Dashboard
+               <small data-localize="dashboard.WELCOME"></small>
+            </div>
+            <!-- START widgets box-->
+            <div class="row">
+               <div class="col-lg-3 col-sm-3">
+                  <!-- START widget-->
+                  <div class="panel widget bg-primary">
+                     <div class="row row-table">
+                        <div class="col-xs-4 text-center bg-primary-dark pv-lg">
+                           <em class="icon-speedometer fa-3x"></em>
+                        </div>
+                        <div class="col-xs-8 pv-lg">
+                           <div class="h2 mt0 current-users text-center">loading</div>
+                           <div class="text-uppercase text-center">Current Users</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-sm-3">
+                  <!-- START widget-->
+                  <div class="panel widget bg-purple">
+                     <div class="row row-table">
+                        <div class="col-xs-4 text-center bg-purple-dark pv-lg">
+                           <em class="icon-users fa-3x"></em>
+                        </div>
+                        <div class="col-xs-8 pv-lg">
+                           <div class="h2 mt0 monthly-actives text-center">loading</div>
+                           <div class="text-uppercase text-center">MAU'S</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-3">
+                  <!-- START widget-->
+                  <div class="panel widget bg-green">
+                     <div class="row row-table">
+                        <div class="col-xs-4 text-center bg-green-dark pv-lg">
+                           <em class="icon-energy fa-3x"></em>
+                        </div>
+                        <div class="col-xs-8 pv-lg">
+                           <div class="h2 mt0 daily-actives text-center">loading</div>
+                           <div class="text-uppercase text-center">DAU'S</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-3">
+                  <!-- START date widget-->
+                  <div class="panel widget">
+                     <div class="row row-table">
+                        <div class="col-xs-4 text-center bg-green pv-lg">
+                           <!-- See formats: https://docs.angularjs.org/api/ng/filter/date-->
+                           <div data-now="" data-format="MMMM" class="text-sm date-month text-center">FEB</div>
+                           <br>
+                           <div data-now="" data-format="D" class="h2 mt0 date-day text-center">8</div>
+                        </div>
+                        <div class="col-xs-8 pv-lg">
+                           <div data-now="" data-format="dddd" class="text-uppercase date-actual-day text-center">Monday</div>
+                           <br>
+                           <div data-now="" data-format="h:mm" class="h2 mt0 date-time">10:47</div>
+                           <div data-now="" data-format="a" class="text-muted text-sm date-pm">am</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+          
+        </div>
+
+<!-- queries for MAU/DAU/Active Blocks -->
     <script>
-      // Run queries and display results here
+        
+        
+        /* Query Segmentation for a Union of events that have happened in the last minute */
+
+        /* Get top events */
+
+        events = [];
+ MP.api.topEvents().done(function(results) {
+     _.each(_.values(results.values()), function(value) {
+         events.push(value);
+     })
+     refresh();
+ });
+
+ function toTitleCase(str) {
+     return str.replace(/\w\S*/g, function(txt) {
+         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+     });
+ }
+
+ function addCommas(intNum) {
+     return (intNum + '').replace(/(\d)(?=(\d{3})+$)/g, '$1,');
+ }
+ var refresh = function() {
+         /* Get total event counts */
+         var query = MP.api.query('/api/2.0/events/', {
+             event: events,
+             unit: 'hour',
+             from: moment(),
+             to: moment().subtract(10, 'hours'),
+             union: 1,
+             type: 'unique'
+         }, {
+             dataType: 'json'
+         })
+         query.done(function(json) {
+                     var values = json.data.values;
+                     var data = _.values(json.data.values)[0];
+                     /* iterate through the keys in the values dictionary in reverse order.  grab the first and second that have data*/
+                     var sortedKeys = _.keys(data)
+                         /* sort and reverse */
+                     sortedKeys.sort()
+                     sortedKeys.reverse()
+                     var current = 0
+                     var lastMinute = 0
+                     var count = 0
+              while (count <= sortedKeys.length) {
+                  if (data[sortedKeys[count]] > 0) {
+                      console.log(sortedKeys[count])
+                      console.log(sortedKeys[count + 1])
+                      current = data[sortedKeys[count]]
+                      try {
+                          lastMinute = data[sortedKeys[count + 1]]
+                      } catch (err){
+                          lastMinute = data[sortedKeys[0]]
+                      }
+                      break;
+                  }
+                  count ++
+              }
+
+              var totalCurrentUsers = current + lastMinute;
+              $('.current-users').text(addCommas(totalCurrentUsers));
+              /* Show this now */
+
+            })
+            
+            /* Query for Monthly Active Users */
+            var monthlyQuery = MP.api.query('/api/2.0/events/', {
+                 event: events,
+                 unit: 'month',
+                 union: 1,
+                 type: 'unique',
+                 from: moment().subtract(1, 'month'),
+                 to: moment()
+             }, {
+                 dataType: 'json'
+             })
+             monthlyQuery.done(function(json) {
+                 console.log(json)
+                 var data = _.values(json.data.values)
+                 var monthlyActives = _.values(data[0])[0]
+                 $('.monthly-actives').text(addCommas(monthlyActives));
+             });
+
+            var dailyQuery = MP.api.query('/api/2.0/events/', {
+                event: events,
+                unit: 'day',
+                union: 1,
+                interval: 1,
+                from: moment().subtract(1, 'day'),
+                to: moment(),
+                type: 'unique'
+            }, {
+                dataType: 'json'
+            });
+            dailyQuery.done(function(json) {
+
+                var data = _.values(json.data.values)[0];
+                var dataKeys = _.keys(data).sort().reverse()
+                var dailyActives = data[dataKeys[0]];
+                console.log(dailyActives);
+                $('.daily-actives').text(addCommas(dailyActives));
+            })
+            
+            /* Date Refresh */
+            var date = new Date();
+            var day = date.getDate();
+            var hours = date.getHours();
+            var convertedHours = hours <= 12 ? hours : hours - 12;
+            var ampm = hours >= 12 ? 'pm' : 'am';
+            var time = convertedHours.toString() + ':' + pad(date.getMinutes()).toString();
+            var month = getCurrentMonth();
+            var actualDay = getCurrentDay();
+
+            $('.date-month').text(month);
+            $('.date-actual-day').text(actualDay);
+            $('.date-day').text(day.toString());
+            $('.date-time').text(time);
+            $('.date-pm').text(ampm);
+
+            var pageViewParams = {limit: 25, type:'unique', unit:'day', from: moment().subtract(50, 'days'), to: moment().subtract(10, 'days')}
+            var pageViewQuery = MP.api.segment('Video Published', 'Publishing Platform', pageViewParams)
+            
+
+            pageViewQuery.done(function(results){
+                var data = {}
+                _.each(_.keys(results.values()), function(key){
+                    /* sum over data in value of results.values()[key] */
+                    var keyData = results.values()[key];
+                    var sortedKeys = _.keys(keyData)
+
+                    /* sort and reverse */
+                    sortedKeys.sort()
+                    sortedKeys.reverse()
+
+                    var current = 0
+                    var lastMinute = 0
+                    var count = 0
+
+                    while (count <= sortedKeys.length) {
+                        if (keyData[sortedKeys[count]] > 0) {
+                            console.log(sortedKeys[count])
+                            console.log(sortedKeys[count + 1])
+                            current = keyData[sortedKeys[count]]
+                            try {
+                                lastMinute = keyData[sortedKeys[count + 1]]
+                            } catch (err){
+                                lastMinute = keyData[sortedKeys[0]]
+                            }
+                            break;
+                        }
+                        count ++
+                    }
+                    
+                    var totalCurrentUsers = current + lastMinute;
+                    data[toTitleCase(key.replace("/ffl/",""))] = totalCurrentUsers
+                });
+
+
+
+            });
+
+
+        }
+
+        setInterval(refresh, 30000);
+
+        function pad(d) {
+            return (d < 10) ? '0' + d.toString() : d.toString();
+        }
+
+
+        function getCurrentMonth(){
+
+            var d = new Date();
+
+            var month = new Array();
+            month[0] = "JAN"; 
+            month[1] = "FEB";
+            month[2] = "MAR";
+            month[3] = "APR";
+            month[4] = "MAY";
+            month[5] = "JUNE";
+            month[6] = "JULY";
+            month[7] = "AUG";
+            month[8] = "SEPT";
+            month[9] = "OCT";
+            month[10] = "NOV";
+            month[11] = "DEC";
+            var n = month[d.getMonth()];
+
+            return n;
+        }
+
+        function getCurrentDay(){
+            var d = new Date();
+            var weekday = new Array(7);
+            weekday[0]=  "Sunday";
+            weekday[1] = "Monday";
+            weekday[2] = "Tuesday";
+            weekday[3] = "Wednesday";
+            weekday[4] = "Thursday";
+            weekday[5] = "Friday";
+            weekday[6] = "Saturday";
+
+            var n = weekday[d.getDay()];
+            return n;
+        }
+
     </script>
-  </body>
+
+
+<!-- example report -->
+
+<h2>Hourly Sum of Transactions Created by Price (last 96 hours)</h2>
+<div id="chart1"></div>
+   
+<script>
+function query1() {
+    var params = {
+        event: "Transaction created",
+        from: moment().subtract(96, 'hours'), // the earliest date you'd like to include in the query
+        to: moment(), // the latest date you'd like to include in the query
+        limit: 100, // maximum number of results to return
+        type: 'unique', // analysis type for the data, can be 'general', 'unique', or 'average'
+        unit: 'hour', // level of granularity of the data, can be 'minute', 'hour', 'day', or 'month'
+        'inner': 'number(properties["Price"])',
+        'outer': 'properties["Shippo Channel"]',
+        'action': 'sum'
+    };
+    
+    // Create a line chart
+    var lineChart = $('<div></div>').appendTo('#chart1').MPChart({
+        chartType: 'line',
+        highchartsOptions: {
+            tooltip: {
+                backgroundColor: '#000000' // Make tooltip background yellow
+            }
+        }
+    }); 
+    
+
+    // Set the chart's data    
+    MP.api.query('/api/2.0/segmentation/multiseg',
+        params).done(function(results) {
+        console.log("got results")
+        console.log(results)
+        //var data = results.values();
+        lineChart.MPChart('setData', results.data.values);
+        
+    })
+}
+</script>
+<br/><br/>
+<p>Recreated from: <a href="https://goo.gl/97A1qF">https://goo.gl/97A1qF</a></p>
+
+<h2></h2>
+<div id="chart2"></div>
+
+<script language="javascript">
+function query2() {
+    var params = {
+
+    };
+    
+    // Create a line chart
+    var barChart = $('<div></div>').appendTo('#chart2').MPChart({
+        chartType: 'bar',
+        highchartsOptions: {
+            tooltip: {
+                backgroundColor: '#000000' 
+            }
+        }
+    }); 
+    
+
+    // Set the chart's data    
+    MP.api.segment(params).done(function(results) {
+        console.log("bar chart: ") 
+        // console.log(results);
+        barChart.MPChart('setData', results);
+        
+    })
+}
+</script>
+
+
+  
+</body>
 </html>
