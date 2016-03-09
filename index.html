@@ -331,14 +331,14 @@
 
 <!-- example report -->
 
-<h2>Hourly Sum of Transactions Created by Price (last 96 hours)</h2>
+<h2>Hourly Sum of Transactions Created by Price (last 36 hours)</h2>
 <div id="chart1"></div>
    
 <script>
 function query1() {
     var params = {
         event: "Transaction created",
-        from: moment().subtract(96, 'hours'), // the earliest date you'd like to include in the query
+        from: moment().subtract(36, 'hours'), // the earliest date you'd like to include in the query
         to: moment(), // the latest date you'd like to include in the query
         limit: 100, // maximum number of results to return
         type: 'unique', // analysis type for the data, can be 'general', 'unique', or 'average'
